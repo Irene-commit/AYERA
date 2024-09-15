@@ -1,0 +1,79 @@
+.flex-container {
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    display: flex;
+    flex-wrap: inherit;
+}
+body {
+    flex-wrap: inherit;
+    flex-shrink: inherit;
+    flex-flow: inherit;
+    margin: 40px;
+    padding: 10px;
+    background-color: white;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+}
+
+.scroll-to-top:hover {
+    background-color: #0056b3;
+}
+
+.scroll-to-top svg {
+    width: 24px;
+    height: 24px;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+       background-image: url('https://pixabay.com/illustrations/ai-generated-nurse-hospital-woman-8584129/');
+       background-size: cover;
+       background-position: center;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    #videoEmbed {
+        width: 100%;
+        height: 300px;
+        display: none;
+    }
+    .play-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #ff5722;
+        color: white;
+        border: none;
+        border-radius: 5px;
+
+    }
+   
+
+
+
+
+
+
